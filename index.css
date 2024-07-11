@@ -3,7 +3,11 @@ body {
   background: #020202;
   cursor: crosshair;
 }
-canvas{display:block}
+
+canvas {
+  display: block;
+}
+
 h1 {
   position: absolute;
   top: 20%;
@@ -15,4 +19,34 @@ h1 {
   font-weight: 900;
   -webkit-user-select: none;
   user-select: none;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Evenly distribute videos */
+  margin: 0 auto; /* Center the container horizontally */
+  width: 640px; /* Adjust width as needed for four videos */
+}
+
+.video-container1 {
+  position: absolute;
+    top: 50%;
+    left: 70%;
+ 
+}
+.video-container2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  
+}
+.video-container3{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+/* Move videos below the heading */
+.video-container {
+
 }
